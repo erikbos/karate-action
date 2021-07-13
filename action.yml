@@ -1,0 +1,13 @@
+name: 'Karate testing'
+description: 'Run Karate tests'
+author: 'Erik Bos'
+inputs:
+  baseurl:
+    description: "Base URL to pass as base url script variable."
+    required: true
+  tests:
+    description: 'Karata file or directory path where to discover tests.'
+    required: true
+runs:
+  using: docker
+  image: Dockerfile
