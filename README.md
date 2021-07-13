@@ -19,7 +19,8 @@ steps:
 
 # Input parameters
 
-| Input | Description                                             |
-|-------|----------------------------------------------------------|
-| url   | Base URL to run tests against.                           |
-| test  | One or more files or directories containing Karate tests |
+| Input   | Description                                              |
+| ------- | -------------------------------------------------------- |
+| url     | Base URL to run tests against.                           |
+| test    | One or more files or directories containing Karate tests |
+| options | Any command line options to pass to Karate               |
