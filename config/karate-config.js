@@ -1,8 +1,8 @@
 function() {
 
-  // all keys and values will be available as script variables
+  // keys and values in config will be available as Karate test script variables
   var config = {
-    baseurl: java.lang.System.getenv('INPUT_BASEURL'),
+    url: java.lang.System.getenv('INPUT_URL'),
   };
 
   // karate.configure("ssl", true)
