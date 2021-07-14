@@ -1,9 +1,13 @@
 function() {
 
+  console.log(' url: ' + java.lang.System.getenv('INPUT_URL'))
+
   // Make GitHub Action input variables available as Karata script variables
   var config = {
     url: java.lang.System.getenv('INPUT_URL'),
   };
+
+  console.log(' config: ' + config)
 
   // These can be set in test (https://github.com/intuit/karate#configure)
   // karate.configure("ssl", true)
