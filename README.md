@@ -1,14 +1,16 @@
 # karate-action
 
+[![api tests](https://github.com/erikbos/karate-action/actions/workflows/apitests.yml/badge.svg)](https://github.com/erikbos/karate-action/actions/workflows/apitests.yml)
+
 A GitHub Action to run [Karate](https://intuit.github.io/karate/) based tests.
 
 # Input parameters
 
-| Input       | Description                                                                                                  |
-| ----------- | ------------------------------------------------------------------------------------------------------------ |
-| vars._name_ | One or more variables that will become Karata script variables. This can be used to pass enviroment or deployment specific parameters such as a url to test against |
-| test        | One or more files or directories containing Karate tests                                                     |
-| options     | Any command line options to pass to Karate                                                                   |
+| Input   | Description                                                                           |
+| ------- | ------------------------------------------------------------------------------------- |
+| url     | URL to pass as script variable, to pass an environment specific url to a feature test |
+| test    | One or more files or directories containing Karate tests                              |
+| options | Any command line options to pass to Karate                                            |
 
 # Example step
 

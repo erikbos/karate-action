@@ -14,7 +14,7 @@ jobs:
     - name: API tests
       uses: erikbos/karate-action@main
       with:
-        vars.url: https://api.isevenapi.xyz/api/
+        url: https://api.isevenapi.xyz/api/
         tests: |
           example-tests/even-numbers.feature
           example-tests/odd-numbers.feature
