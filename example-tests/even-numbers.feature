@@ -1,5 +1,8 @@
 Feature: fetching even numbers
 
+Background:
+    * url url
+
 Scenario: even number 2
 
     Given path '/api/iseven/2'

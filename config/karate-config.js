@@ -7,8 +7,6 @@ function() {
     url: java.lang.System.getenv('INPUT_URL'),
   };
 
-  console.log(' config: ' + config)
-
   // These can be set in test (https://github.com/intuit/karate#configure)
   // karate.configure("ssl", true)
   // karate.configure('connectTimeout', 10000);

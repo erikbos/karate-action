@@ -1,5 +1,8 @@
 Feature: fetching odd numbers
 
+Background:
+    * url url
+
 Scenario: Odd number 1
 
     Given path '/api/iseven/1'
