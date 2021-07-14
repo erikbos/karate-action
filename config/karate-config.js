@@ -1,5 +1,7 @@
 function() {
 
+  console.log(' url: ' + java.lang.System.getenv('INPUT_URL'))
+
   // Make GitHub Action input variables available as Karata script variables
   var config = {
     url: java.lang.System.getenv('INPUT_URL'),
