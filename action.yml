@@ -2,11 +2,11 @@ name: 'Karate testing'
 description: 'Run Karate tests'
 author: 'Erik Bos'
 inputs:
-  url:
-    description: "URL to pass as base url script variable."
-    required: true
+  vars:
+    description: "One or more variables that become Karata script variables."
+    required: false
   tests:
-    description: 'Karata file or directory path where to discover tests.'
+    description: 'Karata file or directory path with tests.'
     required: true
 runs:
   using: docker

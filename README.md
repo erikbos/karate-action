@@ -2,6 +2,15 @@
 
 A GitHub Action to run [Karate](https://intuit.github.io/karate/) based tests.
 
+# Input parameters
+
+| Input       | Description                                                                                                  |
+| ----------- | ------------------------------------------------------------------------------------------------------------ |
+| vars._name_ | One or more variables that will become Karata script variables. This can be used to pass enviroment or deployment specific parameters such as a url to test against |
+| test        | One or more files or directories containing Karate tests                                                     |
+| options     | Any command line options to pass to Karate                                                                   |
+
+# Example step
 
 ```yaml
 steps:
@@ -17,10 +26,6 @@ steps:
         example-tests/odd-numbers.feature
 ```
 
-# Input parameters
+# Example workflow
 
-| Input   | Description                                              |
-| ------- | -------------------------------------------------------- |
-| url     | Base URL to run tests against.                           |
-| test    | One or more files or directories containing Karate tests |
-| options | Any command line options to pass to Karate               |
+See[workflow](.github/workflows/apitests.yml) which configured to run two Karate feature tests from the [example-tests](example-tests) directory.
