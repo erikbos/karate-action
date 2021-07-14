@@ -3,7 +3,7 @@ description: 'Run Karate tests'
 author: 'Erik Bos'
 inputs:
   url:
-    description: "URL to pass as url script variable."
+    description: "URL to pass as script variable to test."
     required: false
   tests:
     description: 'Karata file or directory path with tests.'

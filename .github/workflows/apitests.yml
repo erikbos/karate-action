@@ -18,3 +18,4 @@ jobs:
         tests: |
           example-tests/even-numbers.feature
           example-tests/odd-numbers.feature
+
