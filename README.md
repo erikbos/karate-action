@@ -1,6 +1,6 @@
 # karate-action
 
-[![api tests](https://github.com/erikbos/karate-action/actions/workflows/apitests.yml/badge.svg)](https://github.com/erikbos/karate-action/actions/workflows/apitests.yml)
+[![api tests](https://github.com/erikbos/karate-action/actions/workflows/apitests.yml/badge.svg?branch=main)](https://github.com/erikbos/karate-action/actions/workflows/apitests.yml)
 
 A GitHub Action to run [Karate](https://intuit.github.io/karate/) based tests.
 
@@ -30,4 +30,4 @@ steps:
 
 # Example workflow
 
-See[workflow](.github/workflows/apitests.yml) which configured to run two Karate feature tests from the [example-tests](example-tests) directory.
+See [example api test workflow](.github/workflows/apitests.yml) which runs two Karate feature tests from the [example-tests](example-tests) directory.
